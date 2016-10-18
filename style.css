@@ -1,0 +1,190 @@
+body {
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+  letter-spacing:0.04em;
+  font-weight:300;
+}
+
+a:link {
+  color:#d60909;
+  text-decoration:none;
+}
+
+a:visited {
+  color:#d60909;
+}
+
+a:hover {
+  color:#d45aa7;
+}
+
+a:active {
+  color:#888;
+}
+
+.container {
+  width:92%;
+  margin: 50px auto 100px auto;
+}
+
+.header-title {
+  margin-bottom:10px;
+}
+
+.page-title {
+  color:#d60909;
+  font-size:2.2em;
+  padding-right:20px;
+}
+
+.tagline {
+  color:#b6b6b6;
+}
+
+.navbar {
+  overflow:hidden;
+  /**/
+}
+
+.col-2, .col-8, .col-4 {
+  float:left;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  width:16.5%;
+  height:45px;
+  background-color:#000;
+  margin:0 1px 0 0;
+  color:#fff;
+  text-align: center;
+  line-height:45px;
+}
+
+a.nav-txt {
+  padding:20px 10px 20px 10px;
+  color:#fff;
+  cursor:pointer;
+}
+
+/*.header {
+  width:100%;
+  border:#eee 1px solid;
+}
+
+.nav {
+  background-color:#fff;
+  width:100%;
+  padding:0;
+}
+
+.nav li {
+  list-style:none;
+  display:inline;
+  border:#red 1px solid;
+  width:50px;
+  background-color:blue;
+  padding:10px 15px 10px 15px;
+}*/
+
+.col-8 {
+  width:66.6666%;
+}
+
+.article {
+    padding:50px 20px 0 0;
+    overflow:auto;
+    overflow:hidden;
+}
+
+#date {
+  font-size:1.5em;
+  color:#cacaca;
+}
+
+.article-title {
+  font-size:1.6em;
+  margin:10px 0;
+}
+
+img {
+  width:100%;
+
+}
+
+.excerpt {
+  margin:25px 0;
+  line-height:25px;
+}
+
+.initial {
+  font-size:5em;
+  color:#eee;
+  float: left;
+  width: 0.7em;
+  line-height: 85%;
+  margin:0 15px 0 0;
+}
+
+.more {
+  font-weight:400;
+  float:right;
+
+}
+
+.divider {
+  float:left;
+  clear:left;
+  width:100%;
+  height:1px;
+  margin-top:30px;
+  background-color:#eee;
+
+}
+
+.footer-box {
+  float:left;
+  margin:20px 0;
+  font-size:0.8em;
+}
+
+.footer {
+  padding:0;
+}
+
+.footer li{
+  list-style:none;
+  display:inline;
+  color:#c5c5c5;
+}
+
+.copyright {
+  clear:left;
+  color:#afafaf;
+  margin:30px 0 100px 0;
+}
+
+
+.col-4 {
+  width:33.33333%;
+  padding:90px 0 0 15px;
+}
+
+.about, .posts {
+  color:#888;
+  line-height:22px;
+}
+
+.advt {
+  margin-top:100px;
+  clear:left;
+}
+
+.posts {
+  margin-top:60px;
+  clear:left;
+}
+
+
+.post-list {
+  padding:10px 0 0 20px;
+}
