@@ -14,7 +14,8 @@ a:visited {
 }
 
 a:hover {
-  color:#d45aa7;
+  color:#008def;
+  transition: color 1s ease;
 }
 
 a:active {
@@ -33,7 +34,7 @@ a:active {
 .page-title {
   color:#d60909;
   font-size:2.2em;
-  padding-right:20px;
+  margin-right:20px;
 }
 
 .tagline {
@@ -60,10 +61,16 @@ a:active {
   line-height:45px;
 }
 
+
 a.nav-txt {
   padding:20px 10px 20px 10px;
   color:#fff;
   cursor:pointer;
+}
+
+.nav-txt:hover {
+  color:#acd373;
+  transition: color 0.7s ease;
 }
 
 /*.header {
